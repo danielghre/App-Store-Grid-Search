@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ECDC5D12516585D004C5558 /* App_Store_Grid_SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5D02516585D004C5558 /* App_Store_Grid_SearchApp.swift */; };
+		7ECDC5D32516585D004C5558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5D22516585D004C5558 /* ContentView.swift */; };
+		7ECDC5D52516585E004C5558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECDC5D42516585E004C5558 /* Assets.xcassets */; };
+		7ECDC5D82516585E004C5558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECDC5D72516585E004C5558 /* Preview Assets.xcassets */; };
+		7ECDC5E325165EBE004C5558 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5E225165EBE004C5558 /* Models.swift */; };
+		7ECDC5E925166050004C5558 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5E825166050004C5558 /* GridViewModel.swift */; };
+		7ECDC5EF251664A3004C5558 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7ECDC5EE251664A3004C5558 /* KingfisherSwiftUI */; };
+		7ECDC5F325166719004C5558 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5F225166719004C5558 /* AppInfo.swift */; };
+		7ECDC5F72516721C004C5558 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDC5F62516721C004C5558 /* SearchBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ECDC5CD2516585D004C5558 /* App Store Grid Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Store Grid Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECDC5D02516585D004C5558 /* App_Store_Grid_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Store_Grid_SearchApp.swift; sourceTree = "<group>"; };
+		7ECDC5D22516585D004C5558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7ECDC5D42516585E004C5558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ECDC5D72516585E004C5558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ECDC5D92516585E004C5558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECDC5E225165EBE004C5558 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7ECDC5E825166050004C5558 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		7ECDC5F225166719004C5558 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		7ECDC5F62516721C004C5558 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ECDC5CA2516585D004C5558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDC5EF251664A3004C5558 /* KingfisherSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ECDC5C42516585D004C5558 = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5CF2516585D004C5558 /* App Store Grid Search */,
+				7ECDC5CE2516585D004C5558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECDC5CE2516585D004C5558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5CD2516585D004C5558 /* App Store Grid Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ECDC5CF2516585D004C5558 /* App Store Grid Search */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5D02516585D004C5558 /* App_Store_Grid_SearchApp.swift */,
+				7ECDC5E125165EAE004C5558 /* Models */,
+				7ECDC5F12516670E004C5558 /* View */,
+				7ECDC5E72516603F004C5558 /* ViewModel */,
+				7ECDC5D42516585E004C5558 /* Assets.xcassets */,
+				7ECDC5D92516585E004C5558 /* Info.plist */,
+				7ECDC5D62516585E004C5558 /* Preview Content */,
+			);
+			path = "App Store Grid Search";
+			sourceTree = "<group>";
+		};
+		7ECDC5D62516585E004C5558 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5D72516585E004C5558 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7ECDC5E125165EAE004C5558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5E225165EBE004C5558 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7ECDC5E72516603F004C5558 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5E825166050004C5558 /* GridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7ECDC5F12516670E004C5558 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDC5D22516585D004C5558 /* ContentView.swift */,
+				7ECDC5F225166719004C5558 /* AppInfo.swift */,
+				7ECDC5F62516721C004C5558 /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ECDC5CC2516585D004C5558 /* App Store Grid Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ECDC5DC2516585E004C5558 /* Build configuration list for PBXNativeTarget "App Store Grid Search" */;
+			buildPhases = (
+				7ECDC5C92516585D004C5558 /* Sources */,
+				7ECDC5CA2516585D004C5558 /* Frameworks */,
+				7ECDC5CB2516585D004C5558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Store Grid Search";
+			packageProductDependencies = (
+				7ECDC5EE251664A3004C5558 /* KingfisherSwiftUI */,
+			);
+			productName = "App Store Grid Search";
+			productReference = 7ECDC5CD2516585D004C5558 /* App Store Grid Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ECDC5C52516585D004C5558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7ECDC5CC2516585D004C5558 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 7ECDC5C82516585D004C5558 /* Build configuration list for PBXProject "App Store Grid Search" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ECDC5C42516585D004C5558;
+			packageReferences = (
+				7ECDC5ED251664A3004C5558 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7ECDC5CE2516585D004C5558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ECDC5CC2516585D004C5558 /* App Store Grid Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ECDC5CB2516585D004C5558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDC5D82516585E004C5558 /* Preview Assets.xcassets in Resources */,
+				7ECDC5D52516585E004C5558 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ECDC5C92516585D004C5558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDC5E925166050004C5558 /* GridViewModel.swift in Sources */,
+				7ECDC5F325166719004C5558 /* AppInfo.swift in Sources */,
+				7ECDC5E325165EBE004C5558 /* Models.swift in Sources */,
+				7ECDC5D32516585D004C5558 /* ContentView.swift in Sources */,
+				7ECDC5D12516585D004C5558 /* App_Store_Grid_SearchApp.swift in Sources */,
+				7ECDC5F72516721C004C5558 /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7ECDC5DA2516585E004C5558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7ECDC5DB2516585E004C5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ECDC5DD2516585E004C5558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"App Store Grid Search/Preview Content\"";
+				DEVELOPMENT_TEAM = TH94ESK4DM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "App Store Grid Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swipsterinc.appstoregridsearch.App-Store-Grid-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ECDC5DE2516585E004C5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"App Store Grid Search/Preview Content\"";
+				DEVELOPMENT_TEAM = TH94ESK4DM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "App Store Grid Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swipsterinc.appstoregridsearch.App-Store-Grid-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ECDC5C82516585D004C5558 /* Build configuration list for PBXProject "App Store Grid Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECDC5DA2516585E004C5558 /* Debug */,
+				7ECDC5DB2516585E004C5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ECDC5DC2516585E004C5558 /* Build configuration list for PBXNativeTarget "App Store Grid Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECDC5DD2516585E004C5558 /* Debug */,
+				7ECDC5DE2516585E004C5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7ECDC5ED251664A3004C5558 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7ECDC5EE251664A3004C5558 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ECDC5ED251664A3004C5558 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7ECDC5C52516585D004C5558 /* Project object */;
+}
