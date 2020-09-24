@@ -17,8 +17,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                
                 SearchBar(searchText: $searchText, isSearching: $isSearching)
+                
+                ActivityIndicatorView(isAnimating: $vm.isLoading, style: .medium)
+                    .padding(.top, 10)
                 
                 LazyVGrid(columns: [
                     GridItem(.flexible(minimum: 80, maximum: 170), spacing: 32, alignment: .top),
